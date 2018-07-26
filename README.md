@@ -11,6 +11,13 @@ A sample Node.js app to demonstrate **__fabric-client__** & **__fabric-ca-client
 * [Download Docker images](http://hyperledger-fabric.readthedocs.io/en/latest/samples.html#binaries)
 
 ```
+ami-b49f64c9(Virginia)ubuntu官方镜像 密码:bitnami
+sudo -i
+wget -qO- https://get.docker.com/ | sh
+sudo usermod -aG docker root
+
+
+
 cd trainingProjects/billEndorse 
 npm install
 npm install -g bower
