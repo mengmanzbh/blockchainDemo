@@ -15,7 +15,7 @@ ami-b49f64c9(Virginia)ubuntu官方镜像 密码:bitnami
 sudo -i
 wget -qO- https://get.docker.com/ | sh
 sudo usermod -aG docker root
-
+apt-get install jq
 
 
 cd trainingProjects/billEndorse 
